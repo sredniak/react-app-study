@@ -3,8 +3,6 @@ import { ArticleWrapper, ContentWrapper, NewsSectionHeader, TitleWrapper, Wrappe
 import { Button } from 'components/atoms/Button/Button';
 import axios from 'axios';
 
-//wykorzystanie DATOCMS
-
 export const query = `
          {
           allArticles {
